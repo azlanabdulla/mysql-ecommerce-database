@@ -10,11 +10,11 @@ A complete MySQL e-commerce database schema with tables, sample data, and querie
 
 3.Run in order:
 
-\t mysql -u root -p < schema/create_database.sql
+. mysql -u root -p < schema/create_database.sql
   
-\t mysql -u root -p ecommerce_db < schema/create_tables.sql
+. mysql -u root -p ecommerce_db < schema/create_tables.sql
   
-\t mysql -u root -p ecommerce_db < data/insert_sample_data.sql
+. mysql -u root -p ecommerce_db < data/insert_sample_data.sql
 
 4.Explore queries inside the queries/ folder.
 
